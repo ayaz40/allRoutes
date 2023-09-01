@@ -10,5 +10,5 @@ app.use("/img",express.static(path.join(assets,"img")))
 const allRouter = require("./routes/allRoutes")
 app.use(allRouter)
 app.listen(port,()=>{
-    console.log(`Click to connect http://localhost:${port}`)
+    console.log(`server connection http://localhost:${port}`)
 })
