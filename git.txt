@@ -1,0 +1,11 @@
+git init
+git remote add origin <Link>
+git remote -v
+git branch
+git push origin main
+
+git add .
+git commit -m "about commit"
+git push origin master
+
+touch assets views
